@@ -7,13 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace comp2084_week06
-{
-
-
-    public partial class hello
-    {
-
+namespace comp2084_week06 {
+    
+    
+    public partial class department_details {
+        
         /// <summary>
         /// txtName control.
         /// </summary>
@@ -22,23 +20,23 @@ namespace comp2084_week06
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtName;
-
+        
         /// <summary>
-        /// btnSubmit control.
+        /// txtBudget control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSubmit;
-
+        protected global::System.Web.UI.WebControls.TextBox txtBudget;
+        
         /// <summary>
-        /// lblMessage control.
+        /// btnSave control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblMessage;
+        protected global::System.Web.UI.WebControls.Button btnSave;
     }
 }

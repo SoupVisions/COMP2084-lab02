@@ -7,56 +7,45 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace comp2084_week06
-{
-
-
-    public partial class tip
-    {
-
+namespace comp2084_week06 {
+    
+    
+    public partial class student_details {
+        
         /// <summary>
-        /// txtAmount control.
+        /// txtLastName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtAmount;
-
+        protected global::System.Web.UI.WebControls.TextBox txtLastName;
+        
         /// <summary>
-        /// ddlPercent control.
+        /// txtFirstName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlPercent;
-
+        protected global::System.Web.UI.WebControls.TextBox txtFirstName;
+        
         /// <summary>
-        /// btnCalculate control.
+        /// txtEnrollment control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnCalculate;
-
+        protected global::System.Web.UI.WebControls.TextBox txtEnrollment;
+        
         /// <summary>
-        /// lblTip control.
+        /// btnSave control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblTip;
-
-        /// <summary>
-        /// lblTotal control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblTotal;
+        protected global::System.Web.UI.WebControls.Button btnSave;
     }
 }
